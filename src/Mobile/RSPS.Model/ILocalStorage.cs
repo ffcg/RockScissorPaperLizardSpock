@@ -3,6 +3,9 @@
     public interface ILocalStorage
     {
         void StoreFile(string fileName, string content);
-        string LoadFile(string fileName);
+        string LoadFileAsString(string fileName);
+
+        void StoreFile(string fileName, byte[] content);
+        byte[] LoadFileAsBytes(string fileName);
     }
 }

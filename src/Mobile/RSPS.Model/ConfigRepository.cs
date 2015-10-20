@@ -12,7 +12,7 @@
 
         public Config GetConfig()
         {
-            var localFile = _localStorage.LoadFile(ConfigFileName);
+            var localFile = _localStorage.LoadFileAsString(ConfigFileName);
             if (localFile == null) return new Config() {LoginAttempts = 0, Name = "Jan Banan"};
 
             var config = Newtonsoft.Json.JsonConvert.DeserializeObject<Config>(localFile);
