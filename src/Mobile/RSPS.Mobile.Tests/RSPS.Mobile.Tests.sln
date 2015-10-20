@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPS.Mobile.Tests", "RSPS.Mobile.Tests\RSPS.Mobile.Tests.csproj", "{24C49F86-5617-4A33-807D-BE08BF68DE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPS.Model", "..\RSPS.Model\RSPS.Model.csproj", "{5842BCFF-4E95-4A38-979F-41F29E1007C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C49F86-5617-4A33-807D-BE08BF68DE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C49F86-5617-4A33-807D-BE08BF68DE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C49F86-5617-4A33-807D-BE08BF68DE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C49F86-5617-4A33-807D-BE08BF68DE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5842BCFF-4E95-4A38-979F-41F29E1007C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5842BCFF-4E95-4A38-979F-41F29E1007C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5842BCFF-4E95-4A38-979F-41F29E1007C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5842BCFF-4E95-4A38-979F-41F29E1007C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
